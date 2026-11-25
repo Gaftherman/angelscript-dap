@@ -1,0 +1,11 @@
+Read-only task. Do not modify any file. Look at the image contact-sheet.png in this directory: 12 frames (3 columns x 4 rows, read left to right, top to bottom) sampled in order from a screen recording of VS Code with a terminal panel. Also look at final-frame.png.
+
+Answer each question with yes or no and one short sentence describing what you see, citing the frame number (1-12):
+1. Is a Command Prompt terminal visible, and does it show the command "asc --dap-port 9002 debug-demo.as"?
+2. Does the terminal show a line saying the debugger is listening (DAP listening on 127.0.0.1:9002)?
+3. Is a red breakpoint dot visible in the editor gutter?
+4. Is a yellow highlighted line (paused position) visible in the editor, and does the Run and Debug side bar show Variables with values such as total?
+5. Does the final frame show the terminal output "Total: 10"?
+6. Is any text cut off, unreadable or too small to read at normal size? Name the frame.
+7. Does any frame show a user name, a home folder path or a computer name?
+Finish with a one-line verdict: GOOD or NEEDS WORK, and the single most important fix if any.

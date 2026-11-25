@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  core:
+    name: Core (${{ matrix.name }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: windows x64, os: windows-latest }
+          - { name: linux x64, os: ubuntu-24.04 }
+          - { name: macos arm64, os: macos-latest }
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: dap
+      - uses: actions/checkout@v4
+        with:
+          repository: Gaftherman/angelscript-debugger-example
+          path: example
+      - name: Fetch AngelScript
+        working-directory: example
+        run: git submodule update --init external/angelscript
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install ninja
+      - uses: ilammy/msvc-dev-cmd@v1
+        if: runner.os == 'Windows'
+      - name: Configure
+        run: cmake -S example -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DASDEBUGGER_DIR=${{ github.workspace }}/dap
+      - name: Build
+        run: cmake --build build --parallel 4
+      - name: Tests
+        run: ctest --test-dir build --output-on-failure
