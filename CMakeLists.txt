@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(angelscript_dap VERSION 1.5.0 LANGUAGES CXX)
+project(angelscript_dap VERSION 1.0.0 LANGUAGES CXX)
 
 # Host-agnostic Debug Adapter Protocol core for AngelScript. Embed it with add_subdirectory() after the
 # AngelScript target exists, or point ASDEBUGGER_ANGELSCRIPT_TARGET at a target that only supplies headers.

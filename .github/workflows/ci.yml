@@ -23,7 +23,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: Gaftherman/angelscript-debugger-example
+          ref: main
           path: example
+      - name: Check that the example uses angelscript-dap
+        run: grep -q "angelscript-dap" example/CMakeLists.txt || { echo "::error::The example on main still points to the old core. Push the example first and re-run this job."; exit 1; }
       - name: Fetch AngelScript
         working-directory: example
         run: git submodule update --init external/angelscript

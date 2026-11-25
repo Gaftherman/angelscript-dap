@@ -2,3 +2,7 @@
 *.cmd text eol=crlf
 *.gif binary
 *.png binary
+/.github export-ignore
+/docs/images export-ignore
+/scripts/demos export-ignore
+/.gitattributes export-ignore
