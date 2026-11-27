@@ -13,5 +13,8 @@ All notable changes to this project are documented in this file. The format foll
 - `ASDEBUGGER_CORE_COMPILE_OPTIONS` for embedders that need flags such as `-m32`.
 - English and Spanish documentation, support and contribution guides.
 
+---
+**Full Changelog**: https://github.com/Gaftherman/angelscript-dap/commits/v1.0.0
+
 [Unreleased]: https://github.com/Gaftherman/angelscript-dap/compare/v1.0.0...HEAD
 [1.0.0]: https://github.com/Gaftherman/angelscript-dap/releases/tag/v1.0.0
