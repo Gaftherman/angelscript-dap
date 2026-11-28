@@ -22,7 +22,7 @@ jobs:
           path: dap
       - uses: actions/checkout@v4
         with:
-          repository: Gaftherman/angelscript-debugger-example
+          repository: angelscript-tools/angelscript-debugger-example
           ref: main
           path: example
       - name: Check that the example uses angelscript-dap

@@ -6,10 +6,10 @@
 
 | Pregunta | Dónde |
 | --- | --- |
-| El núcleo del depurador no se conecta, se detiene en la línea equivocada o muestra valores incorrectos | [incidencias de angelscript-dap](https://github.com/Gaftherman/angelscript-dap/issues) |
-| Ejecutar o comprobar scripts desde la terminal | [incidencias de angelscript-cli](https://github.com/Gaftherman/angelscript-cli/issues) |
-| Diagnósticos, hover, autocompletado o la extensión de VS Code | [incidencias de angelscript-lsp](https://github.com/Gaftherman/angelscript-lsp/issues) |
-| El complemento de Sven Co-op | [incidencias de asdebugger](https://github.com/Gaftherman/asdebugger/issues) |
+| El núcleo del depurador no se conecta, se detiene en la línea equivocada o muestra valores incorrectos | [incidencias de angelscript-dap](https://github.com/angelscript-tools/angelscript-dap/issues) |
+| Ejecutar o comprobar scripts desde la terminal | [incidencias de angelscript-cli](https://github.com/angelscript-tools/angelscript-cli/issues) |
+| Diagnósticos, hover, autocompletado o la extensión de VS Code | [incidencias de angelscript-lsp](https://github.com/angelscript-tools/angelscript-lsp/issues) |
+| El complemento de Sven Co-op | [incidencias de asdebugger](https://github.com/Gaftherman/svencoop-asdebugger/issues) |
 
 ## Qué incluir
 

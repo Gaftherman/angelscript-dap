@@ -7,7 +7,7 @@
 - Node.js 20, `ffmpeg` and `ffprobe` on PATH.
 - A built AngelScript extension (`npm run bundle` in `angelscript-lsp/client`).
 - `playwright-core` and `@vscode/test-electron` (`npm install` in `scripts/demos/`, or any folder you pass with `--modules`).
-- A build of [angelscript-cli](https://github.com/Gaftherman/angelscript-cli) and its `examples/` folder.
+- A build of [angelscript-cli](https://github.com/angelscript-tools/angelscript-cli) and its `examples/` folder.
 
 ## Record
 

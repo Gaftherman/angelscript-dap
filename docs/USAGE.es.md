@@ -15,8 +15,8 @@ El destino es `angelscript_dap`; `asdebugger_core` es la misma biblioteca con su
 
 ## Versiones admitidas
 
-El depurador necesita AngelScript 2.36.0 o posterior. Las versiones anteriores ejecutan scripts, pero no tienen la introspección del contexto necesaria para depurar; consulta la [matriz de versiones](https://github.com/Gaftherman/angelscript-engine/blob/main/docs/ENGINE_VERSIONS.md).
+El depurador necesita AngelScript 2.36.0 o posterior. Las versiones anteriores ejecutan scripts, pero no tienen la introspección del contexto necesaria para depurar; consulta la [matriz de versiones](https://github.com/angelscript-tools/angelscript-engine/blob/main/docs/ENGINE_VERSIONS.md).
 
 ## Aplicaciones
 
-El [proyecto de ejemplo](https://github.com/Gaftherman/angelscript-debugger-example) muestra una aplicación completa y la configuración de VS Code. La [CLI de AngelScript](https://github.com/Gaftherman/angelscript-cli) es una aplicación lista para usar: `angelscript --dap-port 9002 script.as`.
+El [proyecto de ejemplo](https://github.com/angelscript-tools/angelscript-debugger-example) muestra una aplicación completa y la configuración de VS Code. La [CLI de AngelScript](https://github.com/angelscript-tools/angelscript-cli) es una aplicación lista para usar: `angelscript --dap-port 9002 script.as`.

@@ -6,7 +6,7 @@ Thank you for helping. Bug reports, fixes, documentation and examples are all we
 
 ## Report a problem
 
-Open an [issue](https://github.com/Gaftherman/angelscript-dap/issues) with the version you use, your operating system, the steps to reproduce it and the output you saw. A script of a few lines that reproduces the problem helps most.
+Open an [issue](https://github.com/angelscript-tools/angelscript-dap/issues) with the version you use, your operating system, the steps to reproduce it and the output you saw. A script of a few lines that reproduces the problem helps most.
 
 ## Propose a change
 
@@ -20,7 +20,7 @@ Open an [issue](https://github.com/Gaftherman/angelscript-dap/issues) with the v
 The core links against an AngelScript target that the parent project supplies, so build and test it through the example project:
 
 ~~~sh
-git clone --recursive https://github.com/Gaftherman/angelscript-debugger-example.git
+git clone --recursive https://github.com/angelscript-tools/angelscript-debugger-example.git
 cd angelscript-debugger-example
 cmake -S . -B build -G Ninja -DASDEBUGGER_DIR=<path to this checkout>
 cmake --build build
@@ -39,7 +39,7 @@ By contributing you agree that your work is released under the [MIT License](LIC
 
 | Project | Use |
 | --- | --- |
-| [angelscript-dap](https://github.com/Gaftherman/angelscript-dap) | The debugger core |
-| [angelscript-debugger-example](https://github.com/Gaftherman/angelscript-debugger-example) | A host that shows how to use the debugger |
-| [angelscript-cli](https://github.com/Gaftherman/angelscript-cli) | Run, check and debug scripts from the terminal |
-| [angelscript-lsp](https://github.com/Gaftherman/angelscript-lsp) | Editor support for VS Code |
+| [angelscript-dap](https://github.com/angelscript-tools/angelscript-dap) | The debugger core |
+| [angelscript-debugger-example](https://github.com/angelscript-tools/angelscript-debugger-example) | A host that shows how to use the debugger |
+| [angelscript-cli](https://github.com/angelscript-tools/angelscript-cli) | Run, check and debug scripts from the terminal |
+| [angelscript-lsp](https://github.com/angelscript-tools/angelscript-lsp) | Editor support for VS Code |

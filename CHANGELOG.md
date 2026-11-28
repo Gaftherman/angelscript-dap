@@ -14,7 +14,7 @@ All notable changes to this project are documented in this file. The format foll
 - English and Spanish documentation, support and contribution guides.
 
 ---
-**Full Changelog**: https://github.com/Gaftherman/angelscript-dap/commits/v1.0.0
+**Full Changelog**: https://github.com/angelscript-tools/angelscript-dap/commits/v1.0.0
 
-[Unreleased]: https://github.com/Gaftherman/angelscript-dap/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/Gaftherman/angelscript-dap/releases/tag/v1.0.0
+[Unreleased]: https://github.com/angelscript-tools/angelscript-dap/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/angelscript-tools/angelscript-dap/releases/tag/v1.0.0

@@ -26,11 +26,11 @@ add_executable(my_host main.cpp)
 target_link_libraries(my_host PRIVATE angelscript_dap)
 ~~~
 
-Las opciones y los requisitos están en [USAGE.es.md](USAGE.es.md). Para una aplicación lista para usar, ejecuta `angelscript --dap-port 9002 script.as` con la [CLI de AngelScript](https://github.com/Gaftherman/angelscript-cli).
+Las opciones y los requisitos están en [USAGE.es.md](USAGE.es.md). Para una aplicación lista para usar, ejecuta `angelscript --dap-port 9002 script.as` con la [CLI de AngelScript](https://github.com/angelscript-tools/angelscript-cli).
 
 ## Compilar desde el código fuente
 
-El núcleo enlaza con un destino de AngelScript que aporta el proyecto padre, así que se compila y prueba mediante el [proyecto de ejemplo](https://github.com/Gaftherman/angelscript-debugger-example). Consulta [CONTRIBUTING.es.md](CONTRIBUTING.es.md).
+El núcleo enlaza con un destino de AngelScript que aporta el proyecto padre, así que se compila y prueba mediante el [proyecto de ejemplo](https://github.com/angelscript-tools/angelscript-debugger-example). Consulta [CONTRIBUTING.es.md](CONTRIBUTING.es.md).
 
 ## Documentación
 
@@ -41,23 +41,23 @@ El núcleo enlaza con un destino de AngelScript que aporta el proyecto padre, as
 
 ## Hoja de ruta
 
-- Soporte del depurador con el [JIT](https://github.com/Gaftherman/angelscript-jit) activo.
+- Soporte del depurador con el [JIT](https://github.com/angelscript-tools/angelscript-jit) activo.
 - Más adaptadores de aplicación listos para usar.
 
 ## Soporte
 
-Abre una [incidencia](https://github.com/Gaftherman/angelscript-dap/issues) para el núcleo del depurador. [SUPPORT.es.md](SUPPORT.es.md) indica qué incluir y a qué proyecto va cada tipo de problema.
+Abre una [incidencia](https://github.com/angelscript-tools/angelscript-dap/issues) para el núcleo del depurador. [SUPPORT.es.md](SUPPORT.es.md) indica qué incluir y a qué proyecto va cada tipo de problema.
 
 ## Relacionados
 
 | Proyecto | Uso |
 | --- | --- |
-| [angelscript-cli](https://github.com/Gaftherman/angelscript-cli) | Ejecuta, comprueba y depura scripts desde la terminal |
-| [angelscript-lsp](https://github.com/Gaftherman/angelscript-lsp) | Soporte del editor para VS Code |
-| [angelscript-debugger-example](https://github.com/Gaftherman/angelscript-debugger-example) | Una aplicación que muestra cómo usar el depurador |
-| [angelscript-jit](https://github.com/Gaftherman/angelscript-jit) | Compilador JIT opcional |
-| [angelscript-engine](https://github.com/Gaftherman/angelscript-engine) | Soporte de versiones antiguas de AngelScript |
-| [asdebugger](https://github.com/Gaftherman/asdebugger) | El complemento de Sven Co-op construido sobre este núcleo |
+| [angelscript-cli](https://github.com/angelscript-tools/angelscript-cli) | Ejecuta, comprueba y depura scripts desde la terminal |
+| [angelscript-lsp](https://github.com/angelscript-tools/angelscript-lsp) | Soporte del editor para VS Code |
+| [angelscript-debugger-example](https://github.com/angelscript-tools/angelscript-debugger-example) | Una aplicación que muestra cómo usar el depurador |
+| [angelscript-jit](https://github.com/angelscript-tools/angelscript-jit) | Compilador JIT opcional |
+| [angelscript-engine](https://github.com/angelscript-tools/angelscript-engine) | Soporte de versiones antiguas de AngelScript |
+| [asdebugger](https://github.com/Gaftherman/svencoop-asdebugger) | El complemento de Sven Co-op construido sobre este núcleo |
 
 ## Créditos
 

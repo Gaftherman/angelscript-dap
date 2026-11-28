@@ -6,10 +6,10 @@
 
 | Question | Where |
 | --- | --- |
-| The debugger core does not attach, stops on the wrong line or shows wrong values | [angelscript-dap issues](https://github.com/Gaftherman/angelscript-dap/issues) |
-| Running or checking scripts from the terminal | [angelscript-cli issues](https://github.com/Gaftherman/angelscript-cli/issues) |
-| Diagnostics, hover, completion or the VS Code extension | [angelscript-lsp issues](https://github.com/Gaftherman/angelscript-lsp/issues) |
-| The Sven Co-op plugin | [asdebugger issues](https://github.com/Gaftherman/asdebugger/issues) |
+| The debugger core does not attach, stops on the wrong line or shows wrong values | [angelscript-dap issues](https://github.com/angelscript-tools/angelscript-dap/issues) |
+| Running or checking scripts from the terminal | [angelscript-cli issues](https://github.com/angelscript-tools/angelscript-cli/issues) |
+| Diagnostics, hover, completion or the VS Code extension | [angelscript-lsp issues](https://github.com/angelscript-tools/angelscript-lsp/issues) |
+| The Sven Co-op plugin | [asdebugger issues](https://github.com/Gaftherman/svencoop-asdebugger/issues) |
 
 ## What to include
 

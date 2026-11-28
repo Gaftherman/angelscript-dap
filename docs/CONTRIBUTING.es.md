@@ -6,7 +6,7 @@ Gracias por ayudar. Se agradecen los informes de errores, las correcciones, la d
 
 ## Informar de un problema
 
-Abre una [incidencia](https://github.com/Gaftherman/angelscript-dap/issues) con la versión que usas, tu sistema operativo, los pasos para reproducirlo y la salida que viste. Lo que más ayuda es un script de pocas líneas que reproduzca el problema.
+Abre una [incidencia](https://github.com/angelscript-tools/angelscript-dap/issues) con la versión que usas, tu sistema operativo, los pasos para reproducirlo y la salida que viste. Lo que más ayuda es un script de pocas líneas que reproduzca el problema.
 
 ## Proponer un cambio
 
@@ -20,7 +20,7 @@ Abre una [incidencia](https://github.com/Gaftherman/angelscript-dap/issues) con 
 El núcleo enlaza con un destino de AngelScript que aporta el proyecto padre, así que compílalo y pruébalo mediante el proyecto de ejemplo:
 
 ~~~sh
-git clone --recursive https://github.com/Gaftherman/angelscript-debugger-example.git
+git clone --recursive https://github.com/angelscript-tools/angelscript-debugger-example.git
 cd angelscript-debugger-example
 cmake -S . -B build -G Ninja -DASDEBUGGER_DIR=<ruta a este repositorio>
 cmake --build build
@@ -39,7 +39,7 @@ Al contribuir aceptas que tu trabajo se publique bajo la [licencia MIT](../LICEN
 
 | Proyecto | Uso |
 | --- | --- |
-| [angelscript-dap](https://github.com/Gaftherman/angelscript-dap) | El núcleo del depurador |
-| [angelscript-debugger-example](https://github.com/Gaftherman/angelscript-debugger-example) | Una aplicación que muestra cómo usar el depurador |
-| [angelscript-cli](https://github.com/Gaftherman/angelscript-cli) | Ejecuta, comprueba y depura scripts desde la terminal |
-| [angelscript-lsp](https://github.com/Gaftherman/angelscript-lsp) | Soporte del editor para VS Code |
+| [angelscript-dap](https://github.com/angelscript-tools/angelscript-dap) | El núcleo del depurador |
+| [angelscript-debugger-example](https://github.com/angelscript-tools/angelscript-debugger-example) | Una aplicación que muestra cómo usar el depurador |
+| [angelscript-cli](https://github.com/angelscript-tools/angelscript-cli) | Ejecuta, comprueba y depura scripts desde la terminal |
+| [angelscript-lsp](https://github.com/angelscript-tools/angelscript-lsp) | Soporte del editor para VS Code |

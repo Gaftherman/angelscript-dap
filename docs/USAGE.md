@@ -15,8 +15,8 @@ The target is `angelscript_dap`; `asdebugger_core` is the same library under its
 
 ## Supported versions
 
-The debugger needs AngelScript 2.36.0 or later. Older releases run scripts but have no context introspection for debugging; see the [engine matrix](https://github.com/Gaftherman/angelscript-engine/blob/main/docs/ENGINE_VERSIONS.md).
+The debugger needs AngelScript 2.36.0 or later. Older releases run scripts but have no context introspection for debugging; see the [engine matrix](https://github.com/angelscript-tools/angelscript-engine/blob/main/docs/ENGINE_VERSIONS.md).
 
 ## Hosts
 
-The [example project](https://github.com/Gaftherman/angelscript-debugger-example) shows a complete host and a VS Code setup. The [AngelScript CLI](https://github.com/Gaftherman/angelscript-cli) is a ready-made host: `angelscript --dap-port 9002 script.as`.
+The [example project](https://github.com/angelscript-tools/angelscript-debugger-example) shows a complete host and a VS Code setup. The [AngelScript CLI](https://github.com/angelscript-tools/angelscript-cli) is a ready-made host: `angelscript --dap-port 9002 script.as`.

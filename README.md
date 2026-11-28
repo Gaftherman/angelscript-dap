@@ -26,11 +26,11 @@ add_executable(my_host main.cpp)
 target_link_libraries(my_host PRIVATE angelscript_dap)
 ~~~
 
-Options and requirements are in [docs/USAGE.md](docs/USAGE.md). For a ready-made host, run `angelscript --dap-port 9002 script.as` with the [AngelScript CLI](https://github.com/Gaftherman/angelscript-cli).
+Options and requirements are in [docs/USAGE.md](docs/USAGE.md). For a ready-made host, run `angelscript --dap-port 9002 script.as` with the [AngelScript CLI](https://github.com/angelscript-tools/angelscript-cli).
 
 ## Building from source
 
-The core links against an AngelScript target supplied by the parent project, so it is built and tested through the [example project](https://github.com/Gaftherman/angelscript-debugger-example). See [CONTRIBUTING.md](CONTRIBUTING.md).
+The core links against an AngelScript target supplied by the parent project, so it is built and tested through the [example project](https://github.com/angelscript-tools/angelscript-debugger-example). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Documentation
 
@@ -41,23 +41,23 @@ The core links against an AngelScript target supplied by the parent project, so 
 
 ## Roadmap
 
-- Debugger support while the [JIT](https://github.com/Gaftherman/angelscript-jit) is active.
+- Debugger support while the [JIT](https://github.com/angelscript-tools/angelscript-jit) is active.
 - More ready-made host adapters.
 
 ## Support
 
-Open an [issue](https://github.com/Gaftherman/angelscript-dap/issues) for the debugger core. [docs/SUPPORT.md](docs/SUPPORT.md) says what to include and where the other projects take their issues.
+Open an [issue](https://github.com/angelscript-tools/angelscript-dap/issues) for the debugger core. [docs/SUPPORT.md](docs/SUPPORT.md) says what to include and where the other projects take their issues.
 
 ## Related
 
 | Project | Use |
 | --- | --- |
-| [angelscript-cli](https://github.com/Gaftherman/angelscript-cli) | Run, check and debug scripts from the terminal |
-| [angelscript-lsp](https://github.com/Gaftherman/angelscript-lsp) | Editor support for VS Code |
-| [angelscript-debugger-example](https://github.com/Gaftherman/angelscript-debugger-example) | A host that shows how to use the debugger |
-| [angelscript-jit](https://github.com/Gaftherman/angelscript-jit) | Optional JIT compiler |
-| [angelscript-engine](https://github.com/Gaftherman/angelscript-engine) | Support for older AngelScript releases |
-| [asdebugger](https://github.com/Gaftherman/asdebugger) | The Sven Co-op plugin built on this core |
+| [angelscript-cli](https://github.com/angelscript-tools/angelscript-cli) | Run, check and debug scripts from the terminal |
+| [angelscript-lsp](https://github.com/angelscript-tools/angelscript-lsp) | Editor support for VS Code |
+| [angelscript-debugger-example](https://github.com/angelscript-tools/angelscript-debugger-example) | A host that shows how to use the debugger |
+| [angelscript-jit](https://github.com/angelscript-tools/angelscript-jit) | Optional JIT compiler |
+| [angelscript-engine](https://github.com/angelscript-tools/angelscript-engine) | Support for older AngelScript releases |
+| [asdebugger](https://github.com/Gaftherman/svencoop-asdebugger) | The Sven Co-op plugin built on this core |
 
 ## Credits
 
